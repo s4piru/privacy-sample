@@ -376,13 +376,14 @@ if __name__ == "__main__":
     )
 
     final_accuracy = evaluate_global_model(trained_global_model, X_test_tensor, y_test_tensor, device=device)
-    print(f"Final test accuracy on Digits dataset (Federated Learning + SMPC): {final_accuracy * 100:.2f}%")
 
     smp_accuracy_history = train_single_model(
         X_train, y_train, X_test_tensor, y_test_tensor,
         device, epochs=args.rounds, lr=args.lr
     )
     final_accuracy_simple = smp_accuracy_history[-1]
+    
+    print(f"Final test accuracy on Digits dataset (Federated Learning + SMPC): {final_accuracy * 100:.2f}%")
     print(f"Final test accuracy on Digits dataset (Single Model): {final_accuracy_simple * 100:.2f}%")
 
     rounds_list = list(range(1, args.rounds + 1))

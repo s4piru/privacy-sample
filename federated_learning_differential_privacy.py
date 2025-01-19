@@ -321,15 +321,15 @@ if __name__ == "__main__":
         outputs_nodp = trained_global_model_nodp(X_test_tensor)
         predictions_nodp = outputs_nodp.argmax(dim=1)
         final_accuracy_nodp = (predictions_nodp == y_test_tensor).float().mean().item()
-        
-    print(f"Final test accuracy on Digits dataset (Federated with DP): {final_accuracy_dp * 100:.2f}%")
-    print(f"Final test accuracy on Digits dataset (Federated without DP): {final_accuracy_nodp * 100:.2f}%")
 
     smp_accuracy_history = train_single_model(
         X_train, y_train, X_test_tensor, y_test_tensor,
         device, epochs=args.rounds, lr=args.lr
     )
     final_accuracy_simple = smp_accuracy_history[-1]
+    
+    print(f"Final test accuracy on Digits dataset (Federated with DP): {final_accuracy_dp * 100:.2f}%")
+    print(f"Final test accuracy on Digits dataset (Federated without DP): {final_accuracy_nodp * 100:.2f}%")
     print(f"Final test accuracy on Digits dataset (Single Model): {final_accuracy_simple * 100:.2f}%")
 
     plt.figure(figsize=(10, 6))

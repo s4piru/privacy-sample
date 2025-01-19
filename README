@@ -1,0 +1,13 @@
+# Sample Code for [Overview of Privacy Techniques blog]()
+- Zero-Knowledge Proofs (ZKPs)
+- k-Anonymity
+- l-Diversity
+- t-Closeness
+- Differential Privacy
+- Homomorphic Encryption
+- Secure Multi-Party Computation (SMPC)
+- Pufferfish Privacy Framework
+- Synthetic Data Generation
+- Federated Learning
+- Federated Learning + SMPC  for Secure Aggregation
+- Federated Learning + Differential Privacy

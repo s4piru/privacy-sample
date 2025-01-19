@@ -1,4 +1,4 @@
-# Sample Code for [Overview of Privacy Techniques blog]()
+# Sample Code for [Overview of Privacy Techniques blog](https://medium.com/@s4piru/overview-of-privacy-techniques-a9b02f4e6c55)
 - Zero-Knowledge Proofs (ZKPs)
 - k-Anonymity
 - l-Diversity
@@ -9,5 +9,5 @@
 - Pufferfish Privacy Framework
 - Synthetic Data Generation
 - Federated Learning
-- Federated Learning + SMPC  for Secure Aggregation
+- Federated Learning + SMPC for Secure Aggregation
 - Federated Learning + Differential Privacy

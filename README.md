@@ -1,4 +1,4 @@
-# Sample Code for [Overview of Privacy Techniques blog](https://medium.com/@s4piru/overview-of-privacy-techniques-a9b02f4e6c55)
+# Example Code for [Overview of Privacy Techniques blog](https://medium.com/@s4piru/overview-of-privacy-techniques-a9b02f4e6c55)
 - Zero-Knowledge Proofs (ZKPs)
 - k-Anonymity
 - l-Diversity

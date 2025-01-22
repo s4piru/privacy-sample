@@ -8,6 +8,6 @@
 - Secure Multi-Party Computation (SMPC)
 - Pufferfish Privacy Framework
 - Synthetic Data Generation
-- Federated Learning
-- Federated Learning + SMPC for Secure Aggregation
-- Federated Learning + Differential Privacy
+- Federated Learning with MNIST dataset using Pytorch.
+- Federated Learning + SMPC for Secure Aggregation with MNIST dataset using Pytorch.
+- Federated Learning + Differential Privacy with MNIST dataset using Pytorch.

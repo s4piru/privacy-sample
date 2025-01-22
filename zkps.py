@@ -2,11 +2,9 @@ import random
 
 
 # For demonstration, use the prime p = 2^127 - 1
-# (In practice, use larger primes and secure generation methods)
 p = 2**127 - 1
 
 # Choose base elements g and h within the field defined by p
-# (Ensure g and h are generators with unknown discrete logarithm relationship)
 g = 3
 h = 5
 

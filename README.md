@@ -4,7 +4,6 @@
 - l-Diversity
 - t-Closeness
 - Differential Privacy
-- Homomorphic Encryption
 - Secure Multi-Party Computation (SMPC)
 - Pufferfish Privacy Framework
 - Synthetic Data Generation
